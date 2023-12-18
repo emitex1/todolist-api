@@ -1,0 +1,28 @@
+http://localhost:3000/api/authors
+
+###
+
+http://localhost:3000/api/author/1
+
+###
+
+http://localhost:3000/api/author/3213
+
+###
+
+POST http://localhost:3000/api/author HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Emad",
+    "fullName": "Emad Armoun"
+}
+
+###
+
+POST http://localhost:3000/api/author HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Niloufar"
+}

@@ -1,0 +1,58 @@
+http://localhost:3000/api/tasks
+
+###
+
+http://localhost:3000/api/tasks?isDone=true
+
+###
+
+http://localhost:3000/api/tasks?isDone=false
+
+###
+
+http://localhost:3000/api/task/30faf975-b7f0-45db-a113-64547c46c07f
+
+###
+
+http://localhost:3000/api/task/30faf975-b7f0-45db-a113-64547c46c07f/toggleDone
+
+###
+
+http://localhost:3000/api/task/fake_id
+
+###
+
+http://localhost:3000/api/task/
+
+###
+
+POST http://localhost:3000/api/task HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Task 8",
+    "authorId": "2",
+    "categoryId": "1"
+}
+
+###
+
+POST http://localhost:3000/api/task HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Task 7",
+    "authorId": "13214214",
+    "categoryId": "3"
+}
+
+###
+
+POST http://localhost:3000/api/task HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Task 7",
+    "authorId": "1",
+    "categoryId": "21323233"
+}

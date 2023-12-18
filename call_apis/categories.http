@@ -1,0 +1,29 @@
+http://localhost:3000/api/categories
+
+###
+
+http://localhost:3000/api/category/1
+
+###
+
+http://localhost:3000/api/category/3213
+
+###
+
+POST http://localhost:3000/api/category HTTP/1.1
+content-type: application/json
+
+{
+    "title": "PC tasks",
+    "color": "#8811CC"
+}
+
+###
+
+POST http://localhost:3000/api/category HTTP/1.1
+content-type: application/json
+
+{
+    "title": "PC tasks",
+    "color": "#8811CC"
+}
