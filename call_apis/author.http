@@ -1,16 +1,16 @@
-http://localhost:3000/api/authors
+http://localhost:3002/api/authors
 
 ###
 
-http://localhost:3000/api/author/1
+http://localhost:3002/api/author/1
 
 ###
 
-http://localhost:3000/api/author/3213
+http://localhost:3002/api/author/3213
 
 ###
 
-POST http://localhost:3000/api/author HTTP/1.1
+POST http://localhost:3002/api/author HTTP/1.1
 content-type: application/json
 
 {
@@ -20,7 +20,7 @@ content-type: application/json
 
 ###
 
-POST http://localhost:3000/api/author HTTP/1.1
+POST http://localhost:3002/api/author HTTP/1.1
 content-type: application/json
 
 {

@@ -1,16 +1,16 @@
-http://localhost:3000/api/categories
+http://localhost:3002/api/categories
 
 ###
 
-http://localhost:3000/api/category/1
+http://localhost:3002/api/category/1
 
 ###
 
-http://localhost:3000/api/category/3213
+http://localhost:3002/api/category/3213
 
 ###
 
-POST http://localhost:3000/api/category HTTP/1.1
+POST http://localhost:3002/api/category HTTP/1.1
 content-type: application/json
 
 {
@@ -20,7 +20,7 @@ content-type: application/json
 
 ###
 
-POST http://localhost:3000/api/category HTTP/1.1
+POST http://localhost:3002/api/category HTTP/1.1
 content-type: application/json
 
 {
