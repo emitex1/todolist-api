@@ -2,10 +2,12 @@ import express, { Request, Response } from "express";
 import taskRoutes from "./routes/taskItem";
 import categoryRoutes from "./routes/category";
 import authorRoutes from "./routes/author";
+import cors from "cors";
 
 const app = express();
 const port = 3002;
 
+app.use(cors());
 app.use(express.json());
 
 app.get("/", (req: Request, res: Response) => {
