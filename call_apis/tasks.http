@@ -26,12 +26,13 @@ http://localhost:3002/api/task/
 
 ###
 
-POST http://localhost:3002/api/task HTTP/1.1
+# POST http://localhost:3002/api/task HTTP/1.1
+POST http://34.41.198.14:3002/api/task HTTP/1.1
 content-type: application/json
 
 {
-    "title": "Task 8",
-    "authorId": "2",
+    "title": "Task 888",
+    "authorId": "5",
     "categoryId": "1"
 }
 
